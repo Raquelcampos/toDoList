@@ -7,7 +7,7 @@ box-sizing: border-box;
 padding:0;
 margin:0;
 background:bisque;
-}`;
+}`
 export const Title= styled.h1`
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap');
 font-family: 'Dancing Script', cursive;
@@ -24,7 +24,7 @@ button{
   background:lightcoral;
   border-radius:15px;
   width:15%;
-  height:100%;
+  height:30px;
   cursor:pointer;
 }
 div{
@@ -43,6 +43,7 @@ flex-direction: column;
 align-items: center;
 width:70%;
 height:100vh;
+background:bisque;
 
 `
 export const Enter= styled.section`
